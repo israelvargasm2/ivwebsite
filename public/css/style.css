@@ -1,0 +1,53 @@
+.item-content-1 {
+    max-width: 50rem; 
+}
+
+#face-section {
+    height: calc(100vh - 128px);
+}
+
+.row-content {
+    background: rgb(242, 242, 242);
+    border-radius: 20px;
+}
+
+.link-menu {
+    border-radius: 8px;
+    border: none;
+    color: #0d6efd;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .link-menu:hover {
+    background-color: #0d6efd; 
+    color: white; 
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 4px grey; 
+    border-radius: 8px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b7b7b7; 
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0d6efd; 
+  }
